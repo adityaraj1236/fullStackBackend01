@@ -7,7 +7,7 @@ export default defineConfig({
   //for adding proxies
   server: {
     proxy: {
-      '/jokes': 'http://localhost:3000'
+      '/jokes': 'https://fullstackfrontend01.onrender.com/'
     }
     
   },
