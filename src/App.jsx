@@ -7,7 +7,7 @@ const App = () => {
   const [jokes, setJoke] = useState([])
 
   useEffect(() => {
-    axios.get('/jokes')
+    axios.get('https://fullstackfrontend01.onrender.com/jokes')
       .then((res) => {
         setJoke(res.data) // Assuming res.data is an array of jokes
       })
